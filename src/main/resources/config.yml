@@ -1,0 +1,15 @@
+jail-location:
+  world: "R46"
+  x: 100
+  y: 65
+  z: 100
+  yaw: 0
+  pitch: 0
+
+jail-ban-location:
+  world: "R46"
+  x: -808
+  y: 52
+  z: 851
+  yaw: 0
+  pitch: 0

@@ -1,0 +1,22 @@
+name: JailSystem
+version: 1.0-SNAPSHOT
+main: org.jail.jailSystem.JailSystem
+api-version: 1.20
+commands:
+  jail:
+    description: "Send a player to jail"
+    usage: "/jail <player>"
+    permission: jailsystem.jail
+    permission-message: "You do not have permission to use this command!"
+  jail-ban:
+    description: "Send a player to jail and add to jail group"
+    usage: "/jail-ban <player>"
+    permission: jailsystem.jailban
+    permission-message: "You do not have permission to use this command!"
+permissions:
+  jailsystem.jail:
+    description: "Allows the player to use the jail command"
+    default: op
+  jailsystem.jailban:
+    description: "Allows the player to use the jail-ban command"
+    default: op
